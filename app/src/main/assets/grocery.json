@@ -1,0 +1,54 @@
+{
+	"fruits":
+	[
+		{
+			"nom": "banane",
+			"quantité initiale" : 20,
+			"quantité utilisé" :  10,
+			"quantité restante" : 10
+		},
+		{
+			"nom" : "fraise",
+			"quantité initiale": 5,
+			"quantité utilisé" : 2,
+			"quantité restante": 3
+		},
+
+		{
+			"nom" : "pomme",
+			"quantité initiale": 15,
+			"quantité utilisé":  5,
+			"quantité restante": 10
+		},
+		{
+			"nom": "riz",
+			"quantité initiale": 15,
+			"quantité utilisé" : 12,
+			"quantité restante" : 13
+		},
+		{
+			"nom" : "mangue",
+			"quantité initiale": 9,
+			"quantité utilisé":  5,
+			"quantité restante": 4
+		},
+		{
+			"huile": "huile",
+			"quantité initiale" : 5,
+			"quantité utilisé" : 1.2,
+			"quantité restante" : 4.5
+		},
+		{
+			"nom": "orange",
+			"quantité initiale" :20,
+			"quantité utilisé" : 15,
+			"quantité restante" : 10
+		},
+		{
+			"nom": "epice",
+			"quantité initiale" : 2,
+			"quantité utilisé" : 2,
+			"quantité restante" : 2
+		}
+	]
+}

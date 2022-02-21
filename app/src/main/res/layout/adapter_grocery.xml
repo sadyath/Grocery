@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <RelativeLayout
+        android:layout_width="327dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/qteres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nom"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="45dp"
+            android:text="qte restante"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nom"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="60dp"
+            android:text="Quantité restante
+" />
+    </RelativeLayout>
+</LinearLayout>
